@@ -90,7 +90,6 @@ main{
 @media only screen and (max-width:700px) {
 .backpacks{
     flex-direction: column;
-    width:1000px;
     margin-bottom: 20px;
     margin-left: 0 auto;
 }
@@ -99,11 +98,8 @@ main{
 }
 .about{
     flex-direction: column;
-    width: 1300px;
 }
-.about .xmlid{
-    width: 100%;
-}
+
 .demo{
     flex-direction: column;
 }
