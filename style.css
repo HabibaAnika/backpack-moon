@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-bottom: 30px;
+}
+header,main{
+    width: 1000px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+nav{
+    margin-top: 30px;
+}
+div a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    margin-right: 20px;
+    font-size: small;
+}
+h1,h2{
+    font-family: 'Bebas Neue', cursive;
+}
+main h2{
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+main{
+    margin-top: 50px;
+}
+.viwe h1{
+    color: rgb(2, 2, 92);
+}
+.demo .viwe{
+   margin-top: 60px;
+}
+.demo span{
+     color: #76c27e;
+}
+.help{
+    margin-top: 150px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}
+.info img{
+    margin-right: 20px;
+}
+.buy{
+    display: flex;
+}
+.buy button{
+    margin-left: auto;
+}
+.backpacks{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.pack{
+    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.212),
+               -15px 15px 15px rgba(128, 128, 128, 0.171);
+               width: 25%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.pack img{
+    background-color: #21266518;
+    border-radius: 8px;
+    width: 100%;
+    padding-left: 0px;
+}
+.switch{
+    border: none;
+    background-color: rgb(4, 4, 90);
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: x-small;
+}
+
+@media only screen and (max-width:700px) {
+.backpacks{
+    flex-direction: column;
+    width:1000px;
+    margin-bottom: 20px;
+    margin-left: 0 auto;
+}
+.pack{
+    margin-bottom: 30px;
+}
+.about{
+    flex-direction: column;
+    width: 1300px;
+}
+.about .xmlid{
+    width: 100%;
+}
+.demo{
+    flex-direction: column;
+}
+.navber{
+    flex-direction: column;
+}
+.navber .col-4{
+    margin-top: 20px;
+   float: left;
+   width: max-content;
+}
+}
