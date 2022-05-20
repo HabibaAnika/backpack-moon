@@ -96,7 +96,7 @@ main{
 }
 .pack{
     margin-bottom: 30px;
-    width: 100%;
+    width: 50%;
 }
 .about{
     flex-direction: column;
